@@ -15,7 +15,7 @@ name                     : &name "Ziheng Li"
 description              : &description "Ziheng Li's academic homepage on battery health prognosis"
 url                      : https://zihengliNEU_HIT.github.io
 baseurl                  : ""
-repository               : "zihengliNEU_HIT/zihengliNEU_HIT.github.io"
+repository               : "zihenglineu-eng/zihengliNEU_HIT.github.io"
 
 # Site Author
 author:

@@ -6,11 +6,11 @@ author_profile: true
 
 # About Me
 
-I am **Ziheng Li**, a Ph.D. student at **Harbin Institute of Technology, Shenzhen**, working on data-efficient battery health prognosis and machine learning for real-world energy storage scenarios. My research focuses on addressing fundamental data constraints—such as insufficient samples, fragmented charging observations, and domain discrepancies—to enable reliable and scalable battery State-of-Health (SOH) and Remaining-Useful-Life (RUL) estimation in practical applications.
+I am **Ziheng Li**, a Ph.D. student at **Harbin Institute of Technology, Shenzhen**, focusing on data-efficient battery health prognosis under real-world constraints. My research aims to address key challenges arising from practical battery applications, including limited training samples, fragmented charging observations, and distribution discrepancies across different operating conditions and battery types.
 
-My work spans **few-shot learning**, **generative modeling**, and **early prediction**, integrating methodologies from meta-learning, conditional diffusion models, and uncertainty-aware prediction frameworks. Beyond battery systems, I also study **protein language models (ESM, ProtT5)** and mutation pathogenicity prediction under data sparsity, contributing toward interpretable and generalizable biomedical AI.
+My work centers on three methodological directions: **few-shot learning**, **generative modeling**, and **early-cycle prediction**. Specifically, I design meta-learning and domain adaptation strategies for cross-domain SOH/RUL estimation; develop generative models—such as conditional diffusion models—to reconstruct complete battery curves from partial charging segments; and build early prediction frameworks capable of assessing battery health using only partial cycle data.
 
-My long-term goal is to develop **data-efficient, robust, and deployable** prognostic tools for electric vehicles, energy storage systems, and broader real-world PHM applications.
+The overarching goal of my research is to develop **robust, data-efficient, and deployable** battery prognostic algorithms that support electric vehicles, large-scale energy storage systems, and emerging battery technologies.
 
 ---
 
@@ -27,23 +27,21 @@ My long-term goal is to develop **data-efficient, robust, and deployable** progn
 
 ---
 
-# Current Research
+# Current Research Focus
 
-### **Data-Constrained Challenges in Battery Health Prognosis**
-Battery health assessment in real-world conditions often suffers from limited training samples, incomplete cycle information, and cross-domain discrepancies. My research addresses these challenges using:
+### **Data-Constrained Battery Health Prognosis**
+Real-world battery testing often suffers from limited data availability, incomplete charge-discharge cycles, and cross-domain discrepancies. To address these challenges, my research investigates:
 
-- **Few-shot learning** for rapid knowledge transfer under scarce data  
-- **Generative diffusion models** to reconstruct full battery curves from fragmented charging segments  
-- **Early-cycle prediction** for SOH/RUL estimation using partial observations  
-- **Domain-invariant feature learning** for cross-condition generalization  
+- **Few-shot learning** for rapid adaptation under scarce data  
+- **Generative diffusion models** to reconstruct full battery voltage–time curves from fragmented segments  
+- **Early-cycle prediction** to achieve SOH/RUL estimation with minimal operational data  
+- **Domain-invariant representation learning** to generalize across batteries, protocols, and working conditions  
 
-These approaches collectively improve reliability, reduce testing costs, and accelerate the deployment of battery systems in EVs and energy storage stations.
+These data-efficient approaches aim to reduce testing cost, enhance reliability, and accelerate battery deployment in EV and energy storage applications.
 
 ---
 
 # Contact
-
 - **Email:** 25b353022@stu.hit.edu.cn  
 - **GitHub:** https://github.com/zihenglineu-eng  
 - **Affiliation:** Harbin Institute of Technology, Shenzhen  
-

@@ -88,12 +88,6 @@ publication_category:
   conferences:
     title: 'Conference Papers'
 
-header_pages:
-  - research.md
-  - publications.md
-  - projects.md
-  - cv.md
-
 # Site Settings
 show_main_menu           : true
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
